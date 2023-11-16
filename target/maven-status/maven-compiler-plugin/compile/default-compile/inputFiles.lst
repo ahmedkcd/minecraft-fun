@@ -1,6 +1,8 @@
-/Users/ahmed/IdeaProjects/MySecondPlugin/src/main/java/me/itzorg/mysecondplugin/MySecondPlugin.java
-/Users/ahmed/IdeaProjects/MySecondPlugin/src/main/java/me/itzorg/mysecondplugin/listeners/MenuHandler.java
-/Users/ahmed/IdeaProjects/MySecondPlugin/src/main/java/me/itzorg/mysecondplugin/listeners/PlayerHitListener.java
-/Users/ahmed/IdeaProjects/MySecondPlugin/src/main/java/me/itzorg/mysecondplugin/commands/NickCommand.java
-/Users/ahmed/IdeaProjects/MySecondPlugin/src/main/java/me/itzorg/mysecondplugin/commands/GodCommand.java
-/Users/ahmed/IdeaProjects/MySecondPlugin/src/main/java/me/itzorg/mysecondplugin/commands/GUICommand.java
+/Users/ahmed/Documents/GitHub/minecraft-fun/src/main/java/me/itzorg/minecraft_fun/commands/GodCommand.java
+/Users/ahmed/Documents/GitHub/minecraft-fun/src/main/java/me/itzorg/minecraft_fun/commands/ZeusCommand.java
+/Users/ahmed/Documents/GitHub/minecraft-fun/src/main/java/me/itzorg/minecraft_fun/commands/NickCommand.java
+/Users/ahmed/Documents/GitHub/minecraft-fun/src/main/java/me/itzorg/minecraft_fun/listeners/PlayerHitListener.java
+/Users/ahmed/Documents/GitHub/minecraft-fun/src/main/java/me/itzorg/minecraft_fun/listeners/PlayerInteractEventListener.java
+/Users/ahmed/Documents/GitHub/minecraft-fun/src/main/java/me/itzorg/minecraft_fun/listeners/MenuHandler.java
+/Users/ahmed/Documents/GitHub/minecraft-fun/src/main/java/me/itzorg/minecraft_fun/commands/GUICommand.java
+/Users/ahmed/Documents/GitHub/minecraft-fun/src/main/java/me/itzorg/minecraft_fun/listeners/MinecraftFun.java

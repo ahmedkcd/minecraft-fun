@@ -1,6 +1,6 @@
-name: MySecondPlugin
+name: minecraft_fun
 version: '1.0-SNAPSHOT'
-main: me.itzorg.mysecondplugin.MySecondPlugin
+main: me.itzorg.minecraft_fun
 api-version: 1.18
 authors: [ ItzOrg ]
 description: My second MC Plugin
@@ -11,3 +11,6 @@ commands:
   gui:
     description: Cool gui
     usage: /<command>
+  zeus:
+    description: Gives you god hand
+    usage: /zeus

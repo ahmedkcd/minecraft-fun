@@ -1,7 +1,8 @@
-package me.itzorg.minecraft_fun;
+package me.itzorg.minecraft_fun.listeners;
 
 import me.itzorg.minecraft_fun.commands.GUICommand;
 import me.itzorg.minecraft_fun.commands.NickCommand;
+import me.itzorg.minecraft_fun.commands.ZeusCommand;
 import me.itzorg.minecraft_fun.listeners.PlayerHitListener;
 import org.bukkit.plugin.java.JavaPlugin;
 
