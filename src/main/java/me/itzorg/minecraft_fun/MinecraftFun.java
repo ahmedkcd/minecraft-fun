@@ -7,7 +7,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 /**
  * Made by Ahmed Kaced
- * 
+ *
  *
  */
 public final class MinecraftFun extends JavaPlugin {
@@ -18,6 +18,7 @@ public final class MinecraftFun extends JavaPlugin {
 
         getCommand("nick").setExecutor(new NickCommand());
         getCommand("gui").setExecutor(new GUICommand());
+        getCommand("zeus").setExecutor(new ZeusCommand());
 
         getServer().getPluginManager().registerEvents(new PlayerHitListener(), this );
 
