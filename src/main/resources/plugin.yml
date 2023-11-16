@@ -1,0 +1,13 @@
+name: MySecondPlugin
+version: '${project.version}'
+main: me.itzorg.mysecondplugin.MySecondPlugin
+api-version: 1.18
+authors: [ ItzOrg ]
+description: My second MC Plugin
+commands:
+  nick:
+    description: Makes you a noob
+    usage: /<command>
+  gui:
+    description: Cool gui
+    usage: /<command>

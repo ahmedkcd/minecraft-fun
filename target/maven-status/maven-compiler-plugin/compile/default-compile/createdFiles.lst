@@ -1,0 +1,6 @@
+me/itzorg/mysecondplugin/listeners/PlayerHitListener.class
+me/itzorg/mysecondplugin/commands/GUICommand.class
+me/itzorg/mysecondplugin/listeners/MenuHandler.class
+me/itzorg/mysecondplugin/MySecondPlugin.class
+me/itzorg/mysecondplugin/commands/NickCommand.class
+me/itzorg/mysecondplugin/commands/GodCommand.class
