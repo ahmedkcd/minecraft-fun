@@ -15,15 +15,22 @@ public class MenuHandler implements Listener {
     @EventHandler
     public void onMenuClick(InventoryClickEvent e)
     {
+        if(!e.getView().getTitle().equals(ChatColor.RED + "GUI")){
+            return;
+        }
+        if(e.getCurrentItem() == null){
+            return;
+        }
+
         Player p = (Player) e.getWhoClicked();
-        if(e.getView().getTitle().equalsIgnoreCase(ChatColor.of(new Color(250, 231, 110)) + "GUI"))
-        {
-            if(e.getCurrentItem().equals(Material.SKELETON_SKULL))
+        if(e.getCurrentItem().getType() == Material.SKELETON_SKULL)
             {
-                p.setHealth(0.0);
-                p.sendMessage(ChatColor.BOLD + "" + ChatColor.of(new Color(220, 70, 10)) + "WISH GRANTED.");
+                p.setHealth(0);
                 p.closeInventory();
+                p.sendMessage(ChatColor.BOLD + "" + ChatColor.of(new Color(220, 70, 10)) + "WISH GRANTED.");
             }
+        else if(e.getCurrentItem().getType() == Material.RED_STAINED_GLASS_PANE){
+            e.setCancelled(true);
         }
     }
 }

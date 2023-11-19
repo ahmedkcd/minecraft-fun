@@ -1,6 +1,6 @@
 name: minecraft_fun
 version: '${project.version}'
-main: me.itzorg.minecraft_fun
+main: me.itzorg.minecraft_fun.MinecraftFun
 api-version: 1.18
 authors: [ ItzOrg ]
 description: My second MC Plugin
